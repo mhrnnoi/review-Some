@@ -19,35 +19,35 @@ namespace Bmi
 
             if (bmi > 40)
             {
-                return "Very severely obese";
+                return string.Format($" your Bmi is {bmi} Very severely obese");
             }
             else if (bmi > 35)
             {
-                return "severely obese";
+                return string.Format($" your Bmi is {bmi} severely obese");
             }
             else if (bmi > 30)
             {
-                return "moderetely obese";
+                return string.Format($" your Bmi is {bmi} moderetely obese");
             }
             else if (bmi > 25)
             {
-                return "overweight";
+                return string.Format($" your Bmi is {bmi} overweight");
             }
             else if (bmi > 18.5)
             {
-                return "normal";
+                return string.Format($" your Bmi is {bmi} normal");
             }
             else if (bmi > 16)
             {
-                return "underweight";
+                return string.Format($" your Bmi is {bmi} underweight");
             }
             else if (bmi > 15)
             {
-                return "severely under weight";
+                return string.Format($" your Bmi is {bmi} severely under weight");
             }
             else
             {
-                return "very severely under weight";
+                return string.Format($" your Bmi is {bmi} very severely under weight");
             }
 
         }
